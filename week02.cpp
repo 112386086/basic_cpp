@@ -55,7 +55,6 @@ int exercise1()
     cout << "Acceleration: " << acceleration << endl;
     cout << "Time: " << time << endl;
     cout << "Displacement: " << displacement << endl;
-    cout << "Path:\tC:\\Program Files\\MyApp\nLine1\nLine2" << endl;
     return 0;
 }
 

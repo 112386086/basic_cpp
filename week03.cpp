@@ -20,7 +20,7 @@ int exam1()
         cout << "Prod=" << num1 * num2 << ", ";
         cout << "Quot=" << num1 / num2 << endl;
     }
-
+    fin.close(); // release memory
     return 0;
 }
 

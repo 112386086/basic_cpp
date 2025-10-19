@@ -1,15 +1,15 @@
-#include <iostream>  //æœ‰ç”¨åˆ°cout, endlå°±è¦include
-using namespace std; // å¾ŒçºŒå¯ç›´æ¥èª¿ç”¨cout, endlç­‰
+#include <iostream>  //¦³¥Î¨ìcout, endl´N­ninclude
+using namespace std; // «áÄò¥iª½±µ½Õ¥Îcout, endlµ¥
 
 int main()
 {
-    cout << "ç¬¬ä¸€é¡Œç¨‹å¼ç¢¼output:" << endl;
-    // æ•ˆæœåŒ cout << "ç¬¬ä¸€é¡Œç¨‹å¼ç¢¼output\n";
+    cout << "²Ä¤@ÃDµ{¦¡½Xoutput:" << endl;
+    // ®ÄªG¦P cout << "²Ä¤@ÃDµ{¦¡½Xoutput\n";
     cout << "  ^    ^  " << endl;
     cout << "    O" << endl;
-    cout << "ç¬¬äºŒé¡Œç¨‹å¼ç¢¼output:" << endl;
+    cout << "²Ä¤GÃDµ{¦¡½Xoutput:" << endl;
     cout << " /\\_/\\ " << endl;
-    cout << "(Oï¹’O ) " << endl;
+    cout << "(O¡OO ) " << endl;
     cout << " > ^ <   " << endl;
     return 0;
 }
