@@ -74,7 +74,7 @@ void matrixExample() {
 
 
 
-int exercise() {
+int calculate_revenue() {
     int revenue[5] = {100, 120, 90, 130, 110}; // size decided at declaration, can't be changed later
     for (int i = 0; i < 5; i++) { // ensure index is within capacity of array
         cout << "Day " << (i + 1) << " Revenue: $" << revenue[i] << endl;  //use index to access array elements
@@ -82,7 +82,7 @@ int exercise() {
     return 0;
 }
 
-int exercise2() {
+int linear_search() {
     int result;
     int revenue[5] = {100, 120, 90, 130, 110}; //assign before use, otherwise random values
     int dst[sizeof(revenue)] = {0};
@@ -96,7 +96,7 @@ int exercise2() {
 
 /* -----------week homework----------- */
 
-void cyclicRotation(){
+int main(){
     int k;
     cin >> k;
     int arr[5];
@@ -116,46 +116,5 @@ void cyclicRotation(){
     for (int i = 0; i < n; i++) {
         cout << temp[i] << " ";
     }
-}
-
-
-void matrixProductSum(){
-    int m, n, a = 0, b = 0;
-    cin >> m >> n;
-    while (m < -200 || n > 200) { //rule
-        cout << "Please enter valid integers for m and n (m >= -200, n <= 200): ";
-        cin >> m >> n;
-    }
-    int mA[2][3];
-    int mB[3][4];
-    for (int i = 0; i < 2; i++) {
-        for (int j = 0; j < 3; j++) {
-            mA[i][j] = m + a;
-            a++;
-        }
-    }
-    for (int j = 0; j < 4; j++) {
-        for (int i = 0; i < 3; i++) {
-            mB[i][j] = n + b;
-            b++;
-        }
-    }
-    int sum = 0;
-    int mC[2][4] = {0};
-    for (int i = 0; i < 2; i++) {
-        for (int j = 0; j < 4; j++) {
-            for (int k = 0; k < 3; k++) {
-                mC[i][j] += mA[i][k] * mB[k][j];
-            }
-            sum += mC[i][j];
-        }
-    }
-    cout << sum << endl;
-
-}
-
-int main() {
-    cyclicRotation();
-    matrixProductSum();
     return 0;
 }
