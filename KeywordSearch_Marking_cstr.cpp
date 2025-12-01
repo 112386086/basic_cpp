@@ -23,7 +23,7 @@ int main() {
     char res[260];
     int idx = -1;
     std::cout << "Enter the main string: ";
-    std::cin.getline(mainStr, 256); //up to 255 chars + '\0', only for char
+    std::cin.getline(mainStr, 256); // up to 255 chars + '\0', only for char
     std::cout << "Enter the keyword to search: ";
     std::cin >> keyword;
     toLower(mainStr, dstStr);

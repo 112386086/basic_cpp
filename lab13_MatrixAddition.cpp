@@ -4,7 +4,7 @@
 #include <cstring>
 
 int** CreateMatrix(int m, int n){
-    int** row = new int*[m];
+    int** row = new int* [m];
     int row_element = n, num = 0;
     std::string line;
     for (int i = 0; i < m; i++){
