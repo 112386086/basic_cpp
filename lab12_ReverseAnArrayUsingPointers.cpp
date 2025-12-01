@@ -32,5 +32,6 @@ int main(){
     }
     std::cout << std::endl;
     delete[] arr;
+    arr = nullptr; // avoid dangling pointer
     return 0;
 }
