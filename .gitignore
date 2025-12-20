@@ -30,3 +30,6 @@ obj/
 *.tmp
 *.log
 *~
+
+
+*.zip
