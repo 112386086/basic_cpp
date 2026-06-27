@@ -35,7 +35,7 @@
 
 ### License
 
-此專案僅供學習與教學用途(也不保證交出去一定有分數)。
-This project is for educational purposes only.
+此專案僅供學習成果展示用途(不保證交出去一定有分數)。
+This is a course project for Introduction to Programming (C++) at NYCU. Please do not use this code for academic misconduct.
 
 
